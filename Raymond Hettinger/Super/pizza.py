@@ -23,13 +23,9 @@ class OrganicPizza(Pizza,OrganicDoughFactory):
     pass
 
 
-
 OrganicPizza().order_pizza('Onion','Mushroom')
 
-
 print('========================')
-
 Pizza().order_pizza()
-
 print(help(OrganicPizza()))
 
